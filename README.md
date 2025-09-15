@@ -145,8 +145,6 @@ This is a basic 2D visual novel application in unity.
 
 ## 🖼️ Capturas y video demo
 
-> Coloca tus assets en `docs/images/` y actualiza las rutas según convenga.
-
 ### Menú principal
 ![Menú](docs/images/menu.png)
 
@@ -154,14 +152,12 @@ This is a basic 2D visual novel application in unity.
 ![Cafetería](docs/images/cafeteria.png)
 
 ### Captura 2
-![Biblioteca](docs/images/captura del juego 1.png)
+![Biblioteca](docs/images/Captura_1.png)
 
 
 ### Video (YouTube)
-[▶ Ver demo en YouTube](https://www.youtube.com/watch?v=TU_ENLACE_AQUI)
-
-> Para tener *thumbnail* clicable, añade una miniatura en `docs/images/demo_thumb.png` y usa:  
-> `[![Demo Video](docs/images/demo_thumb.png)](https://www.youtube.com/watch?v=https://youtu.be/djVPKK1yPJk)`
+▶ Ver demo en YouTube 
+> [![Demo Video](docs/images/Captura_1.png)](https://youtu.be/djVPKK1yPJk)`
 
 ---
 
@@ -193,36 +189,3 @@ Docs/
 
 ---
 
-## ✅ Buenas prácticas y notas
-- **TextMeshPro**: usa estilos consistentes y *fallback fonts* para caracteres especiales.
-- **Imágenes**: mantén un **formato y resolución** coherentes; optimiza sprites para móvil (p.ej., 1080×1920 si tu app es vertical).
-- **Animators**: nombra parámetros claramente. Ejemplos usados: `"Opciones Entrada"`, `"Salida Dialogo 2"`, `"salida"`, `"Entrada Input"`, `"Salida Input"`.
-- **UI Responsiva**: ancla correctamente (`Anchors`) para múltiples resoluciones.
-- **Escalabilidad**: considera un **sistema de datos** (ScriptableObjects o JSON) para diálogos y rutas, reduciendo edición manual en el Inspector.
-
----
-
-## 🧭 Roadmap / Ideas futuras
-- Integrar **AudioMixer** para música/FX y exponer parámetros (volumen master, música, SFX).
-- Sistema de **elecciones ramificadas** con persistencia (auto-save/slots).
-- Soporte multi-idioma con **LocalizedString** (Unity Localization).
-- Editor *in-engine* para crear capítulos/escenas de diálogo de forma visual.
-- Integración con generadores de BGM (Suno) y *pipelines* para exportar *loopables*.
-
----
-
-## 🛠️ Requisitos y compilación
-- **Unity**: 2021.3 LTS o superior (recomendado).  
-- **Paquetes**: TextMeshPro (incluido).  
-- **Orientación**: vertical (móvil). Ajusta *Player Settings → Resolution and Presentation*.  
-- **Build**:
-  1. Selecciona plataforma (Android/iOS/PC) en **File → Build Settings**.
-  2. Agrega la escena inicial a *Scenes In Build*.
-  3. Ajusta calidad y compresión según dispositivo destino.
-  4. *Build & Run*.
-
----
-
-## 📄 Licencia
-Indica aquí la licencia de tu preferencia (por ejemplo, MIT o CC BY-NC-SA).  
-Incluye créditos de arte/música si utilizas assets de terceros.
