@@ -2101,7 +2101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e4f09eb942154cb4abfc65d329854620, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7681fec7f7eede4dbe1937f0ef7b76a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2129,7 +2129,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 719df8c43f52bbe4b9c35f3bb87e271a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6f8c7bd8d90cd624f8ddcb90b6f6914d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2349,6 +2349,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199487465}
   m_CullTransparentMesh: 1
+--- !u!1 &212918265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212918266}
+  - component: {fileID: 212918267}
+  m_Layer: 5
+  m_Name: Velocidad de texto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &212918266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212918265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1250481202}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &212918267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212918265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7377f08cfbbbc4ea2f3f73971c1d3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedSlider: {fileID: 1651254747}
+  slowDelay: 0.1
+  fastDelay: 0.01
+  objetivosTexto2:
+  - {fileID: 966657923}
+  - {fileID: 1524320538}
+  - {fileID: 889254040}
+  - {fileID: 281439416}
+  - {fileID: 1336118573}
+  objetivosVelocidadTexto:
+  - {fileID: 1990048650}
+  autoDescubrirTexto2: 0
+  autoDescubrirVelocidadTexto: 0
 --- !u!1 &242044393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,7 +2422,7 @@ GameObject:
   - component: {fileID: 242044395}
   - component: {fileID: 242044394}
   m_Layer: 5
-  m_Name: IMG Laura
+  m_Name: IMG Valentina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2594,7 +2655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a327b7907eb9ff24f96c8bda8c6e844c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 28fa164488fa02345bc1697f1c4c3572, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2622,7 +2683,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 814b4dd2e302fea4180e42d8e42151ab, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 749e5b2bd1fdddb4581a52e5f114d2e3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -6202,8 +6263,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OtraEscena: {fileID: 197957266}
-  EscenaActual: {fileID: 0}
-  "panelTransici\xF3n": {fileID: 1563909621}
+  EscenaActual: {fileID: 1563909621}
+  "panelTransici\xF3n": {fileID: 1934794743}
 --- !u!114 &821514778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7022,7 +7083,7 @@ GameObject:
   - component: {fileID: 903063687}
   - component: {fileID: 903063686}
   m_Layer: 5
-  m_Name: IMG Laura
+  m_Name: IMG Elena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7954,7 +8015,7 @@ GameObject:
   - component: {fileID: 945025832}
   - component: {fileID: 945025833}
   m_Layer: 5
-  m_Name: AjustesScript
+  m_Name: AjustesVolumenScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8896,7 +8957,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a02339ef8822dd941bdcaf120dd8b6f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a7656867f177aef44ad46b9fca2c54c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8924,7 +8985,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 393600583f8a07c42899a09f1648eaf9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 09146f937a81e4f4b88ad8b39f9d45d8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10381,7 +10442,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ce2d277fb1c4d954f9942cc4c2b5303a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0cc14a4838443fa44ae35f61f9987f82, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.509
   m_Pitch: 1
@@ -10815,6 +10876,7 @@ RectTransform:
   - {fileID: 1781857120}
   - {fileID: 1651254746}
   - {fileID: 303595401}
+  - {fileID: 212918266}
   m_Father: {fileID: 887792750}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11126,7 +11188,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7cf908b298329074b80c074fa98f9c66, type: 3}
   - {fileID: 21300000, guid: e9338fcd3ac365643a09bfb6cceaf7db, type: 3}
   - {fileID: 21300000, guid: e9338fcd3ac365643a09bfb6cceaf7db, type: 3}
-  letterAppearSpeed: 0.01
+  letterAppearSpeed: 0.1
   nextButton: {fileID: 1831221151}
   nombrePlayer: {fileID: 445925860}
   NombreNPC: {fileID: 69683571}
@@ -11577,7 +11639,7 @@ GameObject:
   - component: {fileID: 1404151278}
   - component: {fileID: 1404151277}
   m_Layer: 5
-  m_Name: IMG Velen
+  m_Name: IMG Sofia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12221,7 +12283,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a5e18bcc9d039347a22ba9344600519, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb0ef4092673fa64296da425b4a67383, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12249,7 +12311,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 24e1fe246b47dc442b0c288cd3638b55, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 229a6edb5a5b4134eb01d002d91ce0b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -12749,7 +12811,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1589637628}
   - component: {fileID: 1589637630}
-  - component: {fileID: 1589637629}
   m_Layer: 5
   m_Name: Menu escena
   m_TagString: Untagged
@@ -12781,14 +12842,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!81 &1589637629
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589637627}
-  m_Enabled: 1
 --- !u!82 &1589637630
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12799,7 +12852,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9d3a081e31bcd834ba76210055595a9f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -13318,7 +13371,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -14343,7 +14396,7 @@ GameObject:
   - component: {fileID: 1790043652}
   - component: {fileID: 1790043651}
   m_Layer: 5
-  m_Name: Txt_Iniciar
+  m_Name: "Txt_men\xFA"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14388,7 +14441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Iniciar
+  m_text: "Ir al men\xFA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e630d2a096f388e48b823e72190c2a2c, type: 2}
   m_sharedMaterial: {fileID: -1470298007544561922, guid: e630d2a096f388e48b823e72190c2a2c, type: 2}
@@ -14855,7 +14908,7 @@ GameObject:
   - component: {fileID: 1846085869}
   - component: {fileID: 1846085868}
   m_Layer: 5
-  m_Name: Txt_Velen
+  m_Name: Txt_Sofia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14900,7 +14953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Velen
+  m_text: Sofia
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16233,7 +16286,7 @@ MonoBehaviour:
   - ' '
   imageList:
   - {fileID: 21300000, guid: 04694e2fa4aab424e99e1fe7cc140bab, type: 3}
-  letterAppearSpeed: 0.01
+  letterAppearSpeed: 0.1
   nextButton: {fileID: 1109467872}
   otroBoton: {fileID: 1034408867}
   inputText: {fileID: 529736414}

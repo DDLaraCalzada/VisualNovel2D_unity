@@ -15,4 +15,9 @@ public class ExitTheGame : MonoBehaviour
     {
         
     }
+
+    public void exit()
+    {
+        
+    }
 }
