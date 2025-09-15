@@ -161,31 +161,5 @@ This is a basic 2D visual novel application in unity.
 
 ---
 
-## 🗂️ Estructura de carpetas recomendada
-
-```
-Assets/
-  Art/
-    Characters/
-    Backgrounds/
-    UI/
-  Audio/
-  Prefabs/
-  Scenes/
-  Scripts/
-    Dialogue/
-      texto2.cs
-      velocidadTexto.cs
-      Texto2SpeedController.cs
-    Flow/
-      RevisarEscenaLograda.cs
-      Cafeteria.cs
-    UI/
-      nombre.cs
-  Settings/
-Docs/
-  images/
-```
-
 ---
 
